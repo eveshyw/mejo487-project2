@@ -258,7 +258,11 @@ h3 {
 }
 
 .baby, .youth, .elderly {
+<<<<<<< HEAD
   width:2em;
+=======
+  width:2.4em;
+>>>>>>> master
   height: auto;
 }
 
@@ -600,6 +604,13 @@ h3 pre {
   background-color: #FCA653;
 }
 
+<<<<<<< HEAD
+=======
+#quiz-header h2 {
+  color: white;
+}
+
+>>>>>>> master
 
 
 @media (max-width: 1024px){
@@ -638,6 +649,14 @@ h3 pre {
     width: 43%;
     font-size: 1em;
   }
+<<<<<<< HEAD
+=======
+
+  .baby, .youth, .elderly {
+    width: 2em;
+    height: auto;
+  }
+>>>>>>> master
 }
 
 @media (max-width: 890px){
@@ -769,6 +788,13 @@ h3 pre {
     font-size: .9em;
     width: 39%;
   }
+<<<<<<< HEAD
+=======
+
+  #right1, #right2 {
+    padding-right: 10%;
+  }
+>>>>>>> master
 }
 
 @media (max-width:480px){
@@ -803,6 +829,10 @@ h3 pre {
 
   #section3 h3 {
     font-size: 1.3em;
+<<<<<<< HEAD
+=======
+    margin-top: 1%;
+>>>>>>> master
   }
 
   .page5-content h1 {
@@ -816,6 +846,10 @@ h3 pre {
 
   .page6-content h3 {
     line-height: 1.1em;
+<<<<<<< HEAD
+=======
+    margin-bottom: 3%;
+>>>>>>> master
   }
 
   .page6-content h4 {
