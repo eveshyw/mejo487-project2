@@ -164,15 +164,16 @@ h3 {
 
 .box {
     position: absolute;
-    top: 940px;
-    right: 10px;
-    width: 45%;
+    top: 62%;
+    right: 0;
+    width: 44%;
+    line-height: 1em;
     margin-right: 5%;
     padding: 1%;
     text-align: justify;
     /* font-family: 'Abril Fatface', cursive; */
     font-family: 'Assistant', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #3C1B23;
     border: 2px solid #3C1B23;
     border-radius: 15px;
@@ -189,51 +190,51 @@ h3 {
 }
 
 #angola h3{
-  width:884px;
+  width:80%;
 }
 
 #angola h4{
-  left: 984px;
+  left: 90%;
 }
 
 #philippines h3{
-  width:474px;
+  width:50%;
 }
 
 #philippines h4{
-  left:574px;
+  left:60%;
 }
 
 #mexico h3{
-  width:366px;
+  width:38%;
 }
 
 #mexico h4{
-  left:466px;
+  left:48%;
 }
 
 #united-states h3{
-  width:250px;
+  width:28%;
 }
 
 #united-states h4{
-  left:350px;
+  left:38%;
 }
 
 #united-kingdom h3{
-  width:242px;
+  width:26%;
 }
 
 #united-kingdom h4{
-  left:342px;
+  left:36%;
 }
 
 #japan h3{
-  width:154px;
+  width:18%;
 }
 
 #japan h4{
-  left:254px;
+  left:28%;
 }
 
 #section2 {
@@ -242,7 +243,9 @@ h3 {
 
 .compare {
   text-align: center;
+  padding: 0 5%;
 }
+
 
 .data {
   display: flex;
@@ -255,7 +258,7 @@ h3 {
 }
 
 .baby, .youth, .elderly {
-  width:4%;
+  width:2em;
   height: auto;
 }
 
@@ -288,12 +291,16 @@ h3 pre {
 
 #left1, #left2 {
   text-align: left;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 #right1, #right2 {
   text-align: right;
-  padding-right: 10%;
+  padding-right: 5%;
+}
+
+#right2 h3 {
+  width: 56%;
 }
 
 .line-container h2,.line-container h3, .line {
@@ -325,7 +332,7 @@ h3 pre {
 
 @keyframes increase {
     100% {
-        width: 320px;
+        width: 100px;
     }
 }
 
@@ -361,10 +368,6 @@ h3 pre {
   position: relative;
 }
 
-#train {
-  width: 100%;
-  min-height: 100vh;
-}
 
 .page6-content {
   width: 70%;
@@ -376,6 +379,7 @@ h3 pre {
 }
 
 .page6-content h1 {
+  line-height: .9em;
   margin-left: 0;
   text-decoration: none;
   width: 80%;
@@ -385,18 +389,13 @@ h3 pre {
   width: 80%;
   text-align: justify;
   font-family: 'Assistant', sans-serif;
-  line-height: 1.4em;
+  line-height: 1.2em;
   font-size: 1.2em;
   padding-top: 0;
 }
 
-.fa-quote-right{
-  position: absolute;
-  right: 2.3em;
-}
 
 .page6-content h4 {
-  padding-top: 3%;
   text-align: right;
   width: 80%;
 }
@@ -552,10 +551,6 @@ h3 pre {
 }
 
 
-#people {
-  width: 100%;
-}
-
 .rec {
   background-color: white;
   color: black;
@@ -606,14 +601,291 @@ h3 pre {
 }
 
 
+
 @media (max-width: 1024px){
+  h2{
+    font-size: 35px;
+  }
 
+  p {
+    font-size: 20px;
+  }
+
+  .data h3 {
+    font-size: 1.4em;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .page6-content h3{
+    font-size: 1.1em;
+  }
+
+  .page8-content h1 {
+    padding-right: .4em;
+    width: 380px;
+  }
+
+  #word2 {
+    width: 50%;
+  }
+
+  .box {
+    top: 56%;
+    right: 0;
+    width: 43%;
+    font-size: 1em;
+  }
 }
 
-@media (max-width: 960px){
+@media (max-width: 890px){
+  h2{
+    font-size: 35px
+  }
 
+  .countries{
+    margin-left: 20px;
+  }
+
+  .countries h3{
+    color: rgba(0, 0, 0, 0);
+  }
+
+  #angola h4, #philippines h4, #mexico h4, #united-states h4, #united-kingdom h4, #japan h4 {
+    left: 15%;
+    color: black;
+  }
+
+  .data h3 {
+    font-size: 1.2em;
+  }
+
+  .line-container h2 {
+    background-color:transparent;
+    color: red;
+    height: auto;
+    width: auto;
+    padding: 10px;
+  }
+
+  .quiz-container {
+    width: 80%;
+  }
+
+  .page6-content {
+    width: 65%;
+    top: 5%;
+    left: 33%;
+  }
+
+  .page6-content h3 {
+    font-size: 1em;
+  }
+
+  .page7-content h1 {
+    font-size: 3.2em;
+    width: 680px;
+  }
+
+  .page8-content h3 {
+    padding-left: 40%;
+    padding-right: 5%;
+  }
+
+  .page8-content h1 {
+    margin-left: 40%;
+    padding-right: .4em;
+    width: 380px;
+  }
+  .page9-content h3 {
+      font-size: 1.2em;
+  }
+
+  #woman {
+    padding-right: 6%;
+    font-size: 1.1em;
+  }
+
+  #man {
+    font-size: 1.1em;
+  }
+
+  .page9-content h1 {
+    margin-top: 5%;
+  }
+
+  #word1 {
+    width: 210px;
+  }
 }
 
-@media (max-width: 767px){
-  
+@media (max-width:780px) {
+    #section3 h3 {
+    font-size: 1.6em;
+    padding-top: 20px;
+    width: 50%;
+  }
+
+  .page5-content h1 {
+    font-size: 3em;
+  }
+
+  .page5-content {
+    left: 30%;
+  }
+
+  .page6-content h1 {
+    font-size: 3em;
+  }
+
+  .page6-content {
+    width: 100%;
+    top: 5%;
+    left: 0;
+  }
+
+  .page7-content h1 {
+    font-size: 2em;
+    width: 420px;
+    margin-left: 0;
+  }
+
+  .page7-content h3 {
+    line-height: 1.2em;
+  }
+
+  .page8-content h1 {
+    margin-left: 4%;
+  }
+
+  .page8-content h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .box {
+    font-size: .9em;
+    width: 39%;
+  }
+}
+
+@media (max-width:480px){
+  .cover-content {
+    top: 45%;
+  }
+
+  .circle {
+    top: 35%;
+  }
+
+  .cover-content h1 {
+    font-size: 2.6em;
+  }
+
+  .plus {
+    display: none;
+  }
+
+  .countries {
+    margin-top: 10px;
+  }
+
+  .data h3 {
+    font-size: 1em;
+  }
+
+  .baby, .youth, .elderly {
+    width: 1.4em;
+    height: auto;
+  }
+
+  #section3 h3 {
+    font-size: 1.3em;
+  }
+
+  .page5-content h1 {
+    font-size: 2.3em;
+  }
+
+  .page5-content {
+    left: 25%;
+    top: 29%;
+  }
+
+  .page6-content h3 {
+    line-height: 1.1em;
+  }
+
+  .page6-content h4 {
+    margin: 0;
+  }
+
+  .page6-content h1 {
+    font-size: 2.5em;
+  }
+
+  .page7-content h1 {
+    font-size: 1.4em;
+    width: 290px;
+  }
+
+  .page7-content h3 {
+    line-height: 1.1em;
+    font-size: 1.1em;
+    padding-left: 0;
+  }
+
+  .page8-content h1 {
+    margin-left: 0;
+    font-size: 2em;
+    width: 220px;
+  }
+
+  .page8-content h3 {
+    padding-left: 5%;
+    padding-right: 9%;
+    line-height: 1.1em;
+  }
+
+  .page9-content  {
+    top: 5%;
+  }
+
+  .page9-content h1{
+    margin: 0 0.6em;
+    padding-top: .4em;
+  }
+
+  #woman {
+    margin-left: 0;
+  }
+
+  #man {
+    margin-right: 0;
+  }
+
+  .page10-content h1{
+    font-size: 2.5em;
+  }
+
+  .rec {
+    margin-top: -9px;
+    margin-left: .67em;
+    padding-left: 1em;
+  }
+
+  #word1, #word2, #word3 {
+    width: 190px;
+  }
+
+  #initiative {
+    font-size: 1.3em;
+  }
+
+  .box {
+    opacity: 0;
+  }
+
 }

@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+#quiz-counter {
+    padding-top: 10%;
+}
+
 .question {
     font-size: 1.25em;
 }
